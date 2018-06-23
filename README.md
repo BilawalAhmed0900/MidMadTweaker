@@ -19,5 +19,5 @@ Use it on UI.ar file like this:
 `MidMadTweaker.exe UI.ar UI.ar`
 
 # Compilation
-    g++.exe -m32 -o MidMadTweaker_x86 -static -Ofast -Wall -Werror -std=c++0x MidMadTweaker.cpp
-    g++.exe -m64 -o MidMadTweaker_x64 -static -Ofast -Wall -Werror -std=c++0x MidMadTweaker.cpp
+    g++ -m32 -o MidMadTweaker_x86 -static -Ofast -Wall -Werror -std=c++0x MidMadTweaker.cpp
+    g++ -m64 -o MidMadTweaker_x64 -static -Ofast -Wall -Werror -std=c++0x MidMadTweaker.cpp
